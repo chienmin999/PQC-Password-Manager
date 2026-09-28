@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Build / compiled files
+build/
+dist/
+*.egg-info/
+
+# liboqs
+liboqs/build/
+liboqs-install/
+*.dll
+*.lib
+*.obj
+*.pdb
+
+# Server database
+server/server.db
+server/*.db
+
+# Local password manager data
+data/client_config.json
+data/phone_config.json
+data/vault.json
+
+# Other local data
+data/*.json
+
+# Local test/runtime data
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
